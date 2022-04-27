@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*===================================*/
+/* CLASE GLOBAL PARA AHORRAR CODIGO  */
+.displayFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#nombreBienvenido{
+    width: 100%;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main{
+    background-color: rgb(86, 84, 84);
+}
+
+.nav{
+    position:static;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    gap: 25px;
+}
+
+
+#FirstName{
+    width: 75px;
+    height: 75px;
+    background-color: #666;
+    border-radius: 50px;
+}
+
+#Parraf{
+    font-size: 45px;
+    color: azure;
+}
+
+/*----------------------------------------------------------------  */
+
+.section{
+    width: 100%;
+    height: 832px;
+    color: azure;
+}
+
+/*   CONTAINER   */
+.section-heading {
+    background-color: rgb(65, 63, 63);
+    padding: 20px;
+    width: 40%;
+    height: 311px;
+    margin: 6% 0 4% 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/*   B O T O N   */
+#btn{
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(246, 246, 246);
+    box-shadow: 1px 1px 5px #fff;
+    width: 92%;
+    padding: 5px;
+
+}
+/*   I N P U T   */
+.continput input{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    padding: 6px;
+}
+
+
+.ContenTextarea textarea{
+    resize: none;
+    height: 100px;
+    width: 92%;
+}
+
+/*   P A R R A F O   */
+#counter{
+    width: 95%;
+    height: 9px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer{
+    width: 100%;
+    height: 51px;
+    background-color: rgb(86, 84, 84);
+    box-shadow: 10px 10px 50px #fff;
+    color: #fff;
+}

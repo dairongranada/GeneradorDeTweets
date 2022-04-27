@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <nav class="displayFlex nav">
+            <div class="titulo">
+                <h1>Bienvenido</h1>
+                <p id="nombreBienvenido" class="displayFlex">2339490</p>
+            </div>
+            <div class="displayFlex" id="FirstName">
+                <p id="Parraf"></p>
+            </div>
+        </nav>
+        
+
+        <section class="displayFlex section" >
+                <div class="section-heading">
+                    <h1>DEJA TU COMENTARIO</h1>
+                    <div class="continput">
+                        <input placeholder="Ingresa tu Nombre" type="text" id="inputLetter">
+                    </div>
+                    <div class="ContenTextarea">                        
+                        <textarea id="idTextarea" name="textarea" maxlength="200"  onkeyup="contador();"  placeholder=" Maximo 200 caracteres"></textarea>
+                        <p id="counter">Caracteres: 200</p>
+                    </div>
+                    <div>
+                        <button id="btn">ENVIAR</button>
+                    </div>
+                    <div>
+                        <p id="ParraFinal"></p>
+                    </div>
+                </div>
+        </section>
+        <footer class="displayFlex">
+            <p>Dairon GranadaㅤㅤAndㅤㅤSteven Montoya</p>
+        </footer>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>
