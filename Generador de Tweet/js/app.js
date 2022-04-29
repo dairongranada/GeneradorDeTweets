@@ -28,21 +28,19 @@ function caPrint(eventPrint) {
 
 
 
-
 //CONTADOR
 function contador() {
-    const counterParraf = document.getElementById('counter');
+    const counterConts = document.getElementById('counter');
     let valor = 200;
     let cantidad = texTarea.value.length;
-    counter.textContent =   `Caracteres: ${valor - cantidad}`;
+    counterConts.textContent =  `Caracteres: ${valor - cantidad}`;
     
     if (cantidad > 150) {
-        counter.style.color = "red";
+        counterConts.style.color = "red";
     }else{
-        counter.style.color = "white";
+        counterConts.style.color = "white";
     }
 }
-
 
 
 
