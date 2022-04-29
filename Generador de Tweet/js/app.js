@@ -34,7 +34,7 @@ function contador() {
     const counterParraf = document.getElementById('counter');
     let valor = 200;
     let cantidad = texTarea.value.length;
-    document.getElementById("counter").textContent =   `Caracteres: ${valor - cantidad}`;
+    counter.textContent =   `Caracteres: ${valor - cantidad}`;
     
     if (cantidad > 150) {
         counter.style.color = "red";
